@@ -1,0 +1,47 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #FFF;
+    margin: 0px;
+    z-index: 2;
+
+    h2{
+        margin: 0px;
+        margin-left: 20px;
+        font-weight: 900;
+        display: flex;
+        align-items: center;
+
+        .logo-coincoin{
+            height: 45px;
+            margin-bottom: 18px;
+        }
+
+        #menu{
+            display: none;
+            @include responsive("phone"){
+                margin-right: 20px;
+                display: block;
+            }
+        }
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        li{
+            margin-right: 50px;
+            font-weight: 700;
+        }
+
+        @include responsive("phone"){
+            display: none;
+        }
+    }
+
+    
+}
