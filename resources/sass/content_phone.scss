@@ -1,3 +1,58 @@
 .content_phone{
-    
+    display: flex;
+    justify-content: space-around;
+
+    .text{
+        padding-left: 200px;
+
+        .title{
+            text-transform: uppercase;
+            margin: 0px;
+            font-weight: 700;
+            font-size: 48px;
+            padding-top: 200px;
+            width: 300px;
+            margin-bottom: 100px;
+        }
+
+        .download{
+            color: #FFF;
+            text-align: center;
+            background-color: #000;
+            font-size: 24px;
+            font-weight: 700;
+            border: 3px solid #FFF;
+            border-radius: 15px;
+            padding: 20px 30px;
+            margin: auto;
+            width: 240px;
+            text-transform: uppercase;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .phone{
+            width: 600px;
+        }
+    }
+
+    @include responsive("small_laptop"){
+        display: block;
+
+        .phone{
+            display: none;
+        }
+
+        .text{
+            padding-left: 0px;
+            padding-bottom: 80px;
+
+            .title{
+                margin: auto;
+                text-align: center;
+                margin-bottom: 100px;
+                padding-top: 80px;
+            }
+        }
+    }
 }
