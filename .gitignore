@@ -1,9 +1,14 @@
 /node_modules
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /public/css/
 /public/js/
 >>>>>>> modify .gitignore
+=======
+/public/*.css/
+/public/*.js/
+>>>>>>> remodify gitignore
 /public/hot
 /public/storage
 /storage/*.key
