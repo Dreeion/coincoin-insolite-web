@@ -220,6 +220,11 @@ header .download {
   background: url("/img/comment.jpg");
   background-size: cover;
   background-position: center;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> Modifié: partie commentaire responsive
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: horizontal;
@@ -258,6 +263,10 @@ header .download {
 p {
   padding-left: 40px;
   padding-right: 40px;
+<<<<<<< HEAD
+=======
+>>>>>>> Modifié: partie commentaire responsive
+>>>>>>> Modifié: partie commentaire responsive
 }
 
 @media only screen and (max-width: 1350px) {
