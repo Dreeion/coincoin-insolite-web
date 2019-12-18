@@ -1,0 +1,16 @@
+footer{
+    background-color: #2A2E29;
+    display: flex;
+    justify-content: space-around;
+    color: #FFF;
+    padding: 20px;
+    vertical-align: middle;
+    position: relative;
+    z-index: 2;
+
+    a {
+        position: relative;
+        color: white;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,147 @@
+header{
+    background: url("/img/header.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    .title{
+        font-size: 48px;
+        font-weight: 700;
+        margin-top: 0px;
+        padding-top: 140px;
+        text-align: center;
+    }
+
+    .download{
+        color: #FFF;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.2);
+        font-size: 24px;
+        font-weight: 700;
+        border: 3px solid #FFF;
+        border-radius: 15px;
+        padding: 20px 30px;
+        margin: auto;
+        width: 240px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 240px;
+        display: flex;
+        flex-direction: column;
+        text-transform: uppercase;
+        z-index: 1;
+
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .link_phone{
+        display: none;
+        @include responsive('phone'){
+            display: block;
+        }
+        .button{
+            color: #FFF;
+            text-align: center;
+            border: 3px solid #FFF;
+            border-radius: 15px;
+            padding: 6px 10px;
+            display: flex;
+            flex-direction: column;
+            text-transform: uppercase;
+            padding-bottom: 7px;
+            font-size: 16px;
+            font-weight: 600;
+            width: 280px;
+            margin: auto;
+            margin-bottom: 20px;
+
+            &:hover {
+                background-color: rgba(0, 0, 0, 0.1);
+            }
+        }
+    }
+}
+
+.download_button {
+    margin-top: 15px;
+}
+
+.dl_div {
+    position: static;
+    padding-top: 65vh;
+    align-content: center;
+
+    @include responsive('phone'){
+        display: none;
+    }
+}
+
+.dl_link {
+    position: relative;
+    margin-right: 30%;
+}
+
+.dl_link2 {
+    position: relative;
+    margin-left: 30%;
+}
+
+@media only screen and (max-width: 1100px) {
+    header{
+
+        .title{
+            font-size: 36px;
+            font-weight: 600;
+        }
+
+        .download{
+            font-size: 26px;
+            font-weight: 600;
+            width: 240px;
+        }
+    }
+
+    .dl_link {
+        margin-right: 50%;
+    }
+
+    .dl_link2 {
+        margin-left: 50%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    header{
+
+        .title{
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .download{
+            font-size: 20px;
+            font-weight: 600;
+            width: 140px;
+        }
+    }
+
+    .dl_link {
+        margin-right: 50%;
+    }
+
+    .dl_link2 {
+        margin-left: 50%;
+    }
+}
+
+
