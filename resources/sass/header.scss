@@ -1,0 +1,38 @@
+header{
+    background: url("/img/header.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    .title{
+        font-size: 72px;
+        font-weight: 900;
+        margin-top: 0px;
+        padding-top: 140px;
+        text-align: center;
+    }
+
+    .download{
+        color: #FFF;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.2);
+        font-size: 24px;
+        font-weight: 700;
+        border: 3px solid #FFF;
+        border-radius: 15px;
+        padding: 20px 30px;
+        margin: auto;
+        width: 240px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 240px;
+        display: flex;
+        flex-direction: column;
+        text-transform: uppercase;
+        z-index: 1;
+    }
+}

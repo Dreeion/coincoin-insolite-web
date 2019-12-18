@@ -1,0 +1,41 @@
+.content_discover{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    .section{
+        width: 370px;
+        margin: 40px;
+        &.laptop{
+            display: block;
+            @include responsive("small_laptop"){
+                display: none;
+            }
+        }
+
+        &.phone{
+            display: none;
+            @include responsive("small_laptop"){
+                display: block;
+            }
+        }
+    }
+
+    .title{
+        text-transform: uppercase;
+        margin: 0px;
+        font-weight: 700;
+        font-size: 48px;
+        text-align: center;
+    }
+
+    img{
+        width: 370px;
+    }
+
+    .describe{
+        font-weight: 400px;
+    }
+}
