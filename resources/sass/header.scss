@@ -56,3 +56,51 @@ header{
     position: relative;
     margin-left: 30%;
 }
+
+@media only screen and (max-width: 1100px) {
+    header{
+
+        .title{
+            font-size: 36px;
+            font-weight: 600;
+        }
+
+        .download{
+            font-size: 26px;
+            font-weight: 600;
+            width: 240px;
+        }
+    }
+
+    .dl_link {
+        margin-right: 50%;
+    }
+
+    .dl_link2 {
+        margin-left: 50%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    header{
+
+        .title{
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        .download{
+            font-size: 20px;
+            font-weight: 600;
+            width: 140px;
+        }
+    }
+
+    .dl_link {
+        margin-right: 50%;
+    }
+
+    .dl_link2 {
+        margin-left: 50%;
+    }
+}
