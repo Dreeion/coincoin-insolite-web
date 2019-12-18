@@ -19300,8 +19300,8 @@ console.log('hello');
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Axelle\Documents\Perso\CampusAcademy\A2\ProjetCoincoin\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Axelle\Documents\Perso\CampusAcademy\A2\ProjetCoincoin\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\Debon Maël\Desktop\Project-B2-Web\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Debon Maël\Desktop\Project-B2-Web\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
