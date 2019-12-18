@@ -69,8 +69,8 @@ header {
 }
 
 header .title {
-  font-size: 72px;
-  font-weight: 900;
+  font-size: 48px;
+  font-weight: 700;
   margin-top: 0px;
   padding-top: 140px;
   text-align: center;
@@ -101,6 +101,26 @@ header .download {
           flex-direction: column;
   text-transform: uppercase;
   z-index: 1;
+}
+
+.download_button {
+  margin-top: 15px;
+}
+
+.dl_div {
+  position: static;
+  padding-top: 300px;
+  align-content: center;
+}
+
+.dl_link {
+  position: relative;
+  margin-right: 30%;
+}
+
+.dl_link2 {
+  position: relative;
+  margin-left: 30%;
 }
 
 .content_discover {
