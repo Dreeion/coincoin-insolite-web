@@ -4,10 +4,11 @@ footer{
     justify-content: space-around;
     color: #FFF;
     padding: 20px;
+    vertical-align: middle;
 
-    .love::before{
-        content: url("/img/icon/love.png");
+    a {
         position: relative;
-        top: 2px;
+        color: white;
+        text-decoration: none;
     }
 }

@@ -1,5 +1,3 @@
 <footer>
-    <p>Terms & privacy</p>
-    <p>Contact us</p>
-    <p>We <span class="love"></span> feedback</p>
+    <a href="legal/terms_of_use.php">Terms of Use</a>
 </footer>
