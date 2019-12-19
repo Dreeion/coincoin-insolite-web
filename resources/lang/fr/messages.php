@@ -2,9 +2,9 @@
 
 return [
     //Header
-    'slogan' => 'Find unusual landscapes around you!',
-    'download_android' => 'Télécharger pour android',
-    'download_ios' => 'Télécharger pour ios',
+    'slogan' => 'Découvrez des paysages insolites autour de vous!',
+    'download_android' => 'Télécharger pour Android',
+    'download_ios' => 'Télécharger pour iOS',
 
     //Discover
     'discover' => 'DÉCOUVREZ.',
@@ -20,12 +20,9 @@ return [
     'user3' => 'Simple à prendre en main, j’ai pu partager de nombreux points d\'intérêts dans ma ville.',
 
     //join
-    'join' => 'JOIN THE ADVENTURE NOW!',
+    'join' => 'REJOIGNEZ l\'AVENTURE MAINTENANT!',
 
     //footer
-    'cgu' => 'Terms & privacy',
-    'contact' => 'Contact us',
-    'we' => 'We',
-    'feedback' => 'feedback' ,
+    'cgu' => 'Conditions d\'utilisation',
 
 ];

@@ -1,5 +1,5 @@
 <header>
-    <p class="title">{{ __('messages.slogan') }}!</p>
+    <p class="title">{{ __('messages.slogan') }}</p>
     <div class="dl_div">
         <div class="dl_link">
             <a href="{{ asset('download/android.zip') }}">

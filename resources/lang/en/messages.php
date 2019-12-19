@@ -3,29 +3,26 @@
 return [
     //Header
     'slogan' => 'Find unusual landscapes around you!',
-    'download_android' => 'Download for android',
-    'download_ios' => 'Download for ios',
+    'download_android' => 'Download for Android',
+    'download_ios' => 'Download for iOS',
 
     //Discover
-    'discover' => 'DÉCOUVREZ.',
-    'discover_text' => 'Partez à l’aventure des coins peu connus. Que ce soit en vacances ou près de chez vous, ces lieux ne demandent qu’à être visités !',
+    'discover' => 'DISCOVER.',
+    'discover_text' => 'Leave to discover still little known points. In holidays or close to you, these places are only asking to be visited!',
     'enjoy' => 'PROFITEZ.',
-    'enjoy_text' => 'Explorez de nouveaux endroits, profitez du lieu, et découvez de nouveaux points d\'intérêt.',
+    'enjoy_text' => 'Explore new places, enjoy the landscape and discover new points of interest.',
     'share' => 'PARTAGEZ.',
-    'share_text' => 'Partagez les lieux à visiter près de chez vous et faites-les découvrir à d\'autres utilisateurs !',
+    'share_text' => 'Share the places to visit around you to the other travellers!',
 
     //comment
-    'user1' => 'Je recommande ! CoinCoins Insolites m\'a permis de découvrir de nouveaux lieux magnifiques près de chez moi.',
-    'user2' => 'J\'ai pu facilement organiser mon voyage au Pérou en recherchant au préalable les lieux à visiter sur place !',
-    'user3' => 'Simple à prendre en main, j’ai pu partager de nombreux points d\'intérêts dans ma ville.',
+    'user1' => 'I recommend! CoinCoins Insolites allowed me to discover new awesome places around me.',
+    'user2' => 'I was able to easily organise my travel to the Peru by looking for interesting places to see there!',
+    'user3' => 'Easy to use, I was able to share a lot of points of interest in my city.',
 
     //join
     'join' => 'JOIN THE ADVENTURE NOW!',
 
     //footer
-    'cgu' => 'Terms & privacy',
-    'contact' => 'Contact us',
-    'we' => 'We',
-    'feedback' => 'feedback' ,
+    'cgu' => 'Terms of Use',
 
 ];
