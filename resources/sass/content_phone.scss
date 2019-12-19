@@ -16,20 +16,51 @@
         }
 
         .download{
-            color: #FFF;
+            color: black;
             text-align: center;
-            background-color: #000;
             font-size: 24px;
             font-weight: 700;
-            border: 3px solid #FFF;
+            border: 3px solid black;
             border-radius: 15px;
             padding: 20px 30px;
             margin: auto;
             width: 240px;
-            text-transform: uppercase;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 70px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 240px;
             display: flex;
             flex-direction: column;
+            text-transform: uppercase;
+            z-index: 1;
+
+            &:hover {
+                background-color: rgba(0, 0, 0, 0.1);
+            }
         }
+    }
+
+    .download_button {
+        margin-top: 15px;
+    }
+
+    .dl_div {
+        position: static;
+        padding-top: 300px;
+        align-content: center;
+    }
+
+    .dl_link {
+        position: relative;
+        margin-right: 30%;
+    }
+
+    .dl_link2 {
+        position: relative;
+        margin-left: 30%;
     }
 
     .phone{
