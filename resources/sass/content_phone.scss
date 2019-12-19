@@ -30,10 +30,11 @@
             display: flex;
             flex-direction: column;
         }
+    }
 
-        .phone{
-            width: 600px;
-        }
+    .phone{
+        position: relative;
+        top: 6.5px;
     }
 
     @include responsive("small_laptop"){

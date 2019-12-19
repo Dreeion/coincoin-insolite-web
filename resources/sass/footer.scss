@@ -1,3 +1,13 @@
 footer{
-    
+    background-color: #2A2E29;
+    display: flex;
+    justify-content: space-around;
+    color: #FFF;
+    padding: 20px;
+
+    .love::before{
+        content: url("/img/icon/love.png");
+        position: relative;
+        top: 2px;
+    }
 }
