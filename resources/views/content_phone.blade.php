@@ -1,20 +1,20 @@
 <section class="content_phone">
     <div class="text">
         <h4 class="title">{{ __('messages.join') }}</h4>
-        <div class="dl_div">
-            <div class="dl_link">
+        <div class="buttons_download">
+            <div class="button_margin">
                 <a href="{{ asset('download/android.zip') }}">
-                    <p class="download">
-                        <span>{{ __('messages.download_android') }}</span>
-                        <span><img src="{{ asset('img/icon/download_black.png') }}" alt="download" class="download_button"></span>
+                    <p class="button">
+                        <span class="button-text">{{ __('messages.download_android') }}</span>
+                        <span><img src="{{ asset('img/icon/download_black.png') }}" alt="download" class=""></span>
                     </p>
                 </a>
             </div>
-            <div class="dl_link2">
+            <div class="">
                 <a href="{{ asset('download/ios.zip') }}">
-                    <p class="download">
-                        <span>{{ __('messages.download_ios') }}</span>
-                        <span><img src="{{ asset('img/icon/download_black.png') }}" alt="download" class="download_button"></span>
+                    <p class="button">
+                        <span class="button-text">{{ __('messages.download_ios') }}</span>
+                        <span><img src="{{ asset('img/icon/download_black.png') }}" alt="download" class=""></span>
                     </p>
                 </a>
             </div>

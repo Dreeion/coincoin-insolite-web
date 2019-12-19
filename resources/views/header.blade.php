@@ -5,7 +5,7 @@
             <a href="{{ asset('download/android.zip') }}">
                 <p class="download">
                     <span>{{ __('messages.download_android') }}</span>
-                    <span><img src="{{ asset('img/icon/download.png') }}" alt="download" class="download_button"></span>
+                    <span><img src="{{ asset('img/icon/download_white.png') }}" alt="download" class="download_button"></span>
                 </p>
             </a>
         </div>
@@ -13,7 +13,7 @@
             <a href="{{ asset('download/ios.zip') }}">
                 <p class="download">
                     <span>{{ __('messages.download_ios') }}</span>
-                    <span><img src="{{ asset('img/icon/download.png') }}" alt="download" class="download_button"></span>
+                    <span><img src="{{ asset('img/icon/download_white.png') }}" alt="download" class="download_button"></span>
                 </p>
             </a>
         </div>
