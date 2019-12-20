@@ -42,14 +42,14 @@
 
     <h4>II. Preamble</h4>
     <div class="text">
-        <p>The Company invites its Users to carefully read these General Terms of Use (hereinafter the "CGV/CGU"). The CGU applies to all Services provided by the Company to its Customers in the same category, regardless of the clauses that may be written on the Client's documents.</p>
+        <p>The Company invites its Users to carefully read these General Terms of Use (hereinafter the "CGU"). The CGU applies to all Services provided by the Company to its Users in the same category, regardless of the clauses that may be written on the User's documents.</p>
 
-        <p>CGUs are systematically communicated to the Customer who requests them.</p>
+        <p>CGUs are systematically communicated to the User who requests them.</p>
     </div>
 
     <h4>III. Definitions</h4>
     <div class="text">
-        <p>"General Terms of Sale and Use" or "CGV/CGU" refer to these terms and conditions of sale and use online;</p>
+        <p>"General Terms Use" or "CGU" refer to these terms and conditions of use online;</p>
 
         <p>"Services" refers to all services offered to Users by the Company through this Site;</p>
 
@@ -62,7 +62,7 @@
 
     <h4>IV. Service delivery</h4>
     <div class="text">
-        <p>The Services subject to the CGV/CGU are those that appear on the Site and are offered directly by the Company or its partner providers.</p>
+        <p>The Services subject to the CGU are those that appear on the Site and are offered directly by the Company or its partner providers.</p>
 
         <p>The services are described on the corresponding page within the Site and mention is made of all their essential characteristics. The Company cannot be held responsible for the impossibility of performing the service when the User is not eligible.</p>
     </div>
@@ -76,7 +76,7 @@
 
     <h4>VI. Changes </h4>
     <div class="text">
-        <p>The Company reserves the right to modify the Site, the services offered there, the CGV/CGU as well as any delivery procedures or other constituent elements of the services performed by the Company through the Site.</p>
+        <p>The Company reserves the right to modify the Site, the services offered there, the CGU as well as any delivery procedures or other constituent elements of the services performed by the Company through the Site.</p>
     </div>
 
     <h4>VII. Responsibility</h4>

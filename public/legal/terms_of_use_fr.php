@@ -42,9 +42,9 @@
 
     <h4>II. Préambule</h4>
     <div class="text">
-        <p>La Société invite ses Utilisateurs à lire attentivement les présentes Conditions Générales d’Utilisation (ci-après les " CGU "). Les CGU s'appliquent à tous les Services fournis par la Société à ses Clients d'une même catégorie, quelles que soient les clauses pouvant être inscrites sur les documents du Client.</p>
+        <p>La Société invite ses Utilisateurs à lire attentivement les présentes Conditions Générales d’Utilisation (ci-après les " CGU "). Les CGU s'appliquent à tous les Services fournis par la Société à ses Utilisateurs d'une même catégorie, quelles que soient les clauses pouvant être inscrites sur les documents de l'Utilisateur.</p>
 
-        <p>Les CGU sont systématiquement communiquées au Client qui en fait la demande.</p>
+        <p>Les CGU sont systématiquement communiquées à l'Utilisateur qui en fait la demande.</p>
     </div>
 
     <h4>III. Définitions</h4>
@@ -62,7 +62,7 @@
 
     <h4>IV. Prestation de service</h4>
     <div class="text">
-        <p>Les Services faisant l’objet des CGV/CGU sont ceux qui figurent sur le Site et qui sont proposés directement par la Société ou ses prestataires partenaires.</p>
+        <p>Les Services faisant l’objet des CGU sont ceux qui figurent sur le Site et qui sont proposés directement par la Société ou ses prestataires partenaires.</p>
 
         <p>Les services sont décrits sur la page correspondante au sein du Site et mention est faite de toutes leurs caractéristiques essentielles. La Société ne peut être tenue responsable de l’impossibilité de réaliser ladite prestation lorsque l’Utilisateur n’est pas éligible.</p>
     </div>
@@ -76,7 +76,7 @@
 
     <h4>VI. Modifications </h4>
     <div class="text">
-        <p>La Société se réserve le droit de modifier le Site, les services qui y sont proposés, les CGV/CGU ainsi que toute procédure de livraison ou autre élément constitutif des prestations réalisées par la Société par le biais du Site.</p>
+        <p>La Société se réserve le droit de modifier le Site, les services qui y sont proposés, les CGU ainsi que toute procédure de livraison ou autre élément constitutif des prestations réalisées par la Société par le biais du Site.</p>
     </div>
 
     <h4>VII. Responsabilité</h4>
