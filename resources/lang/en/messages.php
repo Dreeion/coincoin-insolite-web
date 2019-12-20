@@ -9,9 +9,9 @@ return [
     //Discover
     'discover' => 'DISCOVER.',
     'discover_text' => 'Leave to discover still little known points. In holidays or close to you, these places are only asking to be visited!',
-    'enjoy' => 'PROFITEZ.',
+    'enjoy' => 'ENJOY.',
     'enjoy_text' => 'Explore new places, enjoy the landscape and discover new points of interest.',
-    'share' => 'PARTAGEZ.',
+    'share' => 'SHARE.',
     'share_text' => 'Share the places to visit around you to the other travellers!',
 
     //comment
