@@ -1,0 +1,154 @@
+.content_phone{
+    display: flex;
+    justify-content: space-around;
+
+    .text{
+        padding-left: 200px;
+
+        .title{
+            text-transform: uppercase;
+            margin: 0px;
+            font-weight: 700;
+            font-size: 48px;
+            padding-top: 100px;
+            width: 300px;
+            margin-bottom: 10px;
+        }
+
+        .buttons_download{
+            display: flex;
+            flex-direction: column;
+
+            @include responsive("small_laptop"){
+                justify-content: center;
+                flex-wrap: wrap;
+                flex-direction: row;
+                margin: auto;
+            }
+
+            @include responsive("phone"){
+                justify-content: center;
+                flex-direction: column;
+            }
+
+            .button{
+                color: black;
+                text-align: center;
+                font-size: 24px;
+                font-weight: 700;
+                border: 3px solid black;
+                border-radius: 15px;
+                padding: 20px 30px;
+                width: 240px;
+                display: flex;
+                flex-direction: column;
+                text-transform: uppercase;
+                padding-bottom: 7px;
+
+                &:hover {
+                    background-color: rgba(0, 0, 0, 0.1);
+                }
+
+                &-text{
+                    padding-bottom: 15px;
+                }
+                
+                
+            }
+
+            @include responsive("small_laptop"){
+                .button_margin{
+                    margin-right: 25px;
+                }
+            }
+
+            @include responsive("phone"){
+                .button_margin{
+                    margin-right: 0px;
+                }
+
+                .button{
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+
+            a{
+                text-decoration: none;
+            }
+        }
+
+        .download{
+            color: black;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 700;
+            border: 3px solid black;
+            border-radius: 15px;
+            padding: 20px 30px;
+            margin: auto;
+            width: 240px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 70px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 240px;
+            display: flex;
+            flex-direction: column;
+            text-transform: uppercase;
+            z-index: 1;
+
+            &:hover {
+                background-color: rgba(0, 0, 0, 0.1);
+            }
+        }
+    }
+
+    .download_button {
+        margin-top: 15px;
+    }
+
+    .dl_div {
+        position: static;
+        padding-top: 300px;
+        align-content: center;
+    }
+
+    .dl_link {
+        position: relative;
+        margin-right: 30%;
+    }
+
+    .dl_link2 {
+        position: relative;
+        margin-left: 30%;
+    }
+
+    .phone{
+        position: relative;
+        top: 6.5px;
+        z-index: 1;
+    }
+
+    @include responsive("small_laptop"){
+        display: block;
+
+        .phone{
+            display: none;
+        }
+
+        .text{
+            padding-left: 0px;
+            padding-bottom: 80px;
+
+            .title{
+                margin: auto;
+                text-align: center;
+                margin-bottom: 100px;
+                padding-top: 80px;
+            }
+        }
+    }
+}
