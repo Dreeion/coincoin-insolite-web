@@ -2,7 +2,7 @@
 
 return [
     //Header
-    'slogan' => 'Découvrez des paysages insolites autour de vous!',
+    'slogan' => 'Découvrez des paysages insolites autour de vous !',
     'download_android' => 'Télécharger pour Android',
     'download_ios' => 'Télécharger pour iOS',
 
@@ -20,7 +20,7 @@ return [
     'user3' => 'Simple à prendre en main, j’ai pu partager de nombreux points d\'intérêts dans ma ville.',
 
     //join
-    'join' => 'REJOIGNEZ l\'AVENTURE MAINTENANT!',
+    'join' => 'REJOIGNEZ l\'AVENTURE MAINTENANT !',
 
     //footer
     'cgu' => 'Conditions d\'utilisation',
