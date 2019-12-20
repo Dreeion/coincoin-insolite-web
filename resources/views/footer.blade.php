@@ -1,3 +1,3 @@
 <footer>
-    <a href="legal/terms_of_use.php">{{ __('messages.cgu') }}</a>
+    <a href={{ __('messages.cgu_link') }}>{{ __('messages.cgu') }}</a>
 </footer>
