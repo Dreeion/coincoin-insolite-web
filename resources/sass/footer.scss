@@ -5,6 +5,8 @@ footer{
     color: #FFF;
     padding: 20px;
     vertical-align: middle;
+    position: relative;
+    z-index: 2;
 
     a {
         position: relative;
