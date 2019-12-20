@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\App;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -10,6 +12,13 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+
+Route::get('/{locale}', function ($locale) {
+    App::setLocale($locale);
+    return view('home');
+});
+
 
 Route::get('/', function () {
     return view('home');

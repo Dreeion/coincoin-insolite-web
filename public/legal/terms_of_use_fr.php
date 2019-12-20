@@ -42,16 +42,14 @@
 
     <h4>II. Préambule</h4>
     <div class="text">
-        <p>La Société invite ses Utilisateurs à lire attentivement les présentes Conditions Générales de Vente et d’Utilisation (ci-après les " CGV/CGU "). Les CGV/CGU s'appliquent à tous les Services fournis par la Société à ses Clients d'une même catégorie, quelles que soient les clauses pouvant être inscrites sur les documents du Client et notamment ses conditions générales d'achat.</p>
+        <p>La Société invite ses Utilisateurs à lire attentivement les présentes Conditions Générales d’Utilisation (ci-après les " CGU "). Les CGU s'appliquent à tous les Services fournis par la Société à ses Clients d'une même catégorie, quelles que soient les clauses pouvant être inscrites sur les documents du Client.</p>
 
-        <p>Les CGV/CGU sont systématiquement communiquées au Client qui en fait la demande.</p>
+        <p>Les CGU sont systématiquement communiquées au Client qui en fait la demande.</p>
     </div>
 
     <h4>III. Définitions</h4>
     <div class="text">
-        <p>" Client " désigne toute personne physique ou morale qui passe une Commande sur le présent Site Internet ;</p>
-
-        <p>" Conditions Générales de Vente et d'Utilisation " ou " CGV/CGU " désignent les présentes conditions générales de vente et d'utilisation en ligne ;</p>
+        <p>" Conditions Générales d'Utilisation " ou " CGU " désigne les présentes conditions générales d'utilisation en ligne ;</p>
 
         <p>" Services " désigne toutes les prestations de service proposées aux Utilisateurs par la Société à travers le présent Site ;</p>
 
@@ -71,7 +69,7 @@
 
     <h4>V. Cookies</h4>
     <div class="text">
-        <p>Pour permettre à ses Utilisateurs de bénéficier d’une navigation optimale sur le Site et d’un meilleur fonctionnement des différentes interfaces et applications, la Société est susceptible d’implanter un cookie sur l’ordinateur de l’Utilisateur. Ce cookie permet de stocker des informations relatives à la navigation sur le Site, ainsi qu’aux éventuelles données saisies par les Utilisateurs (notamment recherches, login, email, mot de passe).</p>
+        <p>Pour permettre à ses Utilisateurs de bénéficier d’une navigation optimale sur le Site et d’un meilleur fonctionnement des différentes interfaces et applications, la Société est susceptible d’implanter un cookie sur l’ordinateur de l’Utilisateur. Ce cookie permet de stocker des informations relatives à la navigation sur le Site.</p>
         <p>L’Utilisateur autorise expressément la Société à déposer sur le disque dur de l’utilisateur un fichier dit« cookie ».</p>
         <p>L’Utilisateur dispose de la possibilité de bloquer, modifier la durée de conservation, ou supprimer ce cookie via l’interface de son navigateur. Si la désactivation systématique des cookies sur le navigateur de l’Utilisateur l’empêche d’utiliser certains services ou fonctionnalités du Site, ce dysfonctionnement ne saurait en aucun cas constituer un dommage pour le membre qui ne pourra prétendre à aucune indemnité de ce fait.</p>
     </div>
