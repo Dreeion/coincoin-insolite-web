@@ -20,7 +20,7 @@ return [
     'user3' => 'Simple à prendre en main, j’ai pu partager de nombreux points d\'intérêts dans ma ville.',
 
     //join
-    'join' => 'REJOIGNEZ l\'AVENTURE MAINTENANT !',
+    'join' => 'REJOIGNEZ l\'AVENTURE DÈS MAINTENANT !',
 
     //footer
     'cgu' => 'Conditions d\'utilisation',
