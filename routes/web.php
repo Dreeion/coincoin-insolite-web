@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Support\Facades\App;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -14,12 +14,7 @@ use Illuminate\Support\Facades\App;
 */
 
 
-Route::get('/{locale}', function ($locale) {
-    App::setLocale($locale);
-    return view('home');
-});
+Route::get('/{locale}', 'HomeController@changeLang');
 
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', 'HomeController@show');
