@@ -14,6 +14,13 @@ return [
     'share' => 'SHARE.',
     'share_text' => 'Share the places to visit around you to the other travellers!',
 
+    //transition
+    'transition' => 'Camera in hand, let\'s explore the world!',
+
+    //shared img
+    'together' => 'together',
+    'together_text' => 'Thanks to you, new places are discovered every day',
+
     //comment
     'user1' => 'I recommend! CoinCoins Insolites allowed me to discover new awesome places around me.',
     'user2' => 'I was able to easily organise my travel to the Peru by looking for interesting places to see there!',
