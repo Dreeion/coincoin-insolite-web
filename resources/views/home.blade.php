@@ -16,6 +16,7 @@
     @include('nav')
     @include('header')
     @include('content_discover')
+    @include('transition')
     @include('content_img_shared')
     @include('content_comment')
     @include('content_phone')
