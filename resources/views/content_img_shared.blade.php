@@ -1,7 +1,7 @@
 <section class="content_img_shared">
     <div class="together">
-        <div class="together-title">ensemble</div>
-        <div class="together-text">C’est grâce a vous que chaque jour de nouveaux endroits endroits sont découvert.</div>
+        <div class="together-title">{{ __('messages.together') }}</div>
+        <div class="together-text">{{ __('messages.together_text') }}</div>
     </div>
     <div id="img_shared">
         <div style="background-image: url('{{ asset('img/camera.jpg') }}');" class="img"></div>
