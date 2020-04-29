@@ -30,4 +30,11 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'firebase' => [
+        'api_key' => 'AIzaSyCJaKO8d4pkleshE5R2AWPi53eZ0DPGt3M', // Only used for JS integration
+        'auth_domain' => 'coincoininsolite-1cf37.firebaseapp.com', // Only used for JS integration
+        'database_url' => 'https://coincoininsolite-1cf37.firebaseio.com',
+        'storage_bucket' => 'coincoininsolite-1cf37.appspot.com', // Only used for JS integration
+    ],
+
 ];
