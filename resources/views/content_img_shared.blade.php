@@ -79,10 +79,6 @@ buttonMoreImg.addEventListener('click', event => {
     getImage(nbrPage);
 });
 
-
-
-
-
 </script>
 
 </section>
