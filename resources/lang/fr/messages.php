@@ -13,6 +13,15 @@ return [
     'enjoy_text' => 'Explorez de nouveaux endroits, profitez du lieu, et découvez de nouveaux points d\'intérêt.',
     'share' => 'PARTAGEZ.',
     'share_text' => 'Partagez les lieux à visiter près de chez vous et faites-les découvrir à d\'autres utilisateurs !',
+    
+    //transition
+    'transition' => 'Appareil photo en main, partons a l’exploration du monde',
+
+    //shared img
+    'together' => 'Ensemble',
+    'together_text' => 'C’est grâce a vous que chaque jour de nouveaux endroits endroits sont découvert.',
+    'together_button' => 'Plus d\'images',
+
 
     //comment
     'user1' => 'Je recommande ! CoinCoins Insolites m\'a permis de découvrir de nouveaux lieux magnifiques près de chez moi.',
