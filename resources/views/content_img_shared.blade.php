@@ -4,19 +4,10 @@
         <div class="together-text">{{ __('messages.together_text') }}</div>
     </div>
     <div id="img_shared">
-        <div style="background-image: url('{{ asset('img/camera.jpg') }}');" class="img"></div>
-        <div style="background-image: url('{{ asset('img/camera.jpg') }}');" class="img"></div>
-        <div style="background-image: url('{{ asset('img/camera.jpg') }}');" class="img"></div>
-        <div style="background-image: url('{{ asset('img/camera.jpg') }}');" class="img"></div>
-        <div style="background-image: url('{{ asset('img/camera.jpg') }}');" class="img"></div>
-        <div style="background-image: url('{{ asset('img/camera.jpg') }}');" class="img"></div>
-        <div style="background-image: url('{{ asset('img/camera.jpg') }}');" class="img"></div>
-        <div style="background-image: url('{{ asset('img/camera.jpg') }}');" class="img"></div>
-        <div style="background-image: url('{{ asset('img/camera.jpg') }}');" class="img"></div>
-        <div style="background-image: url('{{ asset('img/camera.jpg') }}');" class="img"></div>
     </div>
+    <button id="more_img">{{ __('messages.together_button') }}</button>
 <script>
-    // Initialize Firebase
+// Initialize Firebase
 var config = {
     apiKey: "{{ config('services.firebase.api_key') }}",
     authDomain: "{{ config('services.firebase.auth_domain') }}",
@@ -25,32 +16,59 @@ var config = {
 };
 firebase.initializeApp(config);
 
+
 const parent = document.getElementById('img_shared');
+const buttonMoreImg = document.getElementById('more_img');
+const storageRef = firebase.storage().ref();
+var nbrPage = 0
 
-var storage = firebase.storage().ref();
-var storageRef = storage;
+async function getImage(nbrPage){
+    //get list image name on firebase store
+    var listRef = storageRef.child('Images');
+    var firstPage = await listRef.list({ maxResults: 10});
 
-
-async function pageTokenExample(){
-
-//get list image name on firebase store
-var listRef = storageRef.child('Images');
-var firstPage = await listRef.list({ maxResults: 10});
-//show image
-
-for (let i = 0; i < parent.children.length; i++) {
-    let nameFile = firstPage['items'][i]['location']['path_'];
-    //get link of image and add to page the images
-    storageRef.child(nameFile).getDownloadURL().then(function(url) {
-        parent.children[i].style.backgroundImage = "url('"+url+"')"; ;;
-    });
-}
-
+    if(nbrPage > 0){
+        getOtherImage(listRef, firstPage, nbrPage)
+    }else{
+        giveImageToHtml(firstPage, parent);
+    }
 };
 
+//fonction récursive
+async function getOtherImage(listRef, firstList, nbrPage){
+    var secondPage = await listRef.list({
+      maxResults: 10,
+      pageToken: firstList.nextPageToken,
+    });
+    nbrPage -=1;
+    if(nbrPage > 0){
+        getOtherImage(listRef, secondPage, nbrPage)
+    }else{
+        console.log(secondPage['items']);
+        giveImageToHtml(secondPage, parent);
+    }
+};
 
-pageTokenExample();
+function giveImageToHtml(listImage, parent){
+    for (let i = 0; i < listImage['items'].length; i++) {
+        let nameFile = listImage['items'][i]['location']['path_'];
+        //get link of image and add to page the images
+        storageRef.child(nameFile).getDownloadURL().then(function(url) {
+            var newDivForImage = document.createElement('div');
+            newDivForImage.className = "img";
+            newDivForImage.style.backgroundImage = "url('"+url+"')";
+            parent.appendChild(newDivForImage);
+        });
+    }
+}
 
+
+getImage(nbrPage);
+
+buttonMoreImg.addEventListener('click', event => {
+    nbrPage += 1;
+    getImage(nbrPage);
+});
 
 
 
