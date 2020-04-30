@@ -7,6 +7,7 @@
     </div>
     <button id="more_img">{{ __('messages.together_button') }}</button>
 <script>
+
 // Initialize Firebase
 var config = {
     apiKey: "{{ config('services.firebase.api_key') }}",
@@ -22,6 +23,7 @@ const buttonMoreImg = document.getElementById('more_img');
 const storageRef = firebase.storage().ref();
 var nbrPage = 0
 
+//give list of image 
 async function getImage(nbrPage){
     //get list image name on firebase store
     var listRef = storageRef.child('Images');
@@ -44,24 +46,31 @@ async function getOtherImage(listRef, firstList, nbrPage){
     if(nbrPage > 0){
         getOtherImage(listRef, secondPage, nbrPage)
     }else{
-        console.log(secondPage['items']);
         giveImageToHtml(secondPage, parent);
     }
 };
 
+//insert link into the background of div
 function giveImageToHtml(listImage, parent){
     for (let i = 0; i < listImage['items'].length; i++) {
         let nameFile = listImage['items'][i]['location']['path_'];
         //get link of image and add to page the images
         storageRef.child(nameFile).getDownloadURL().then(function(url) {
+            //create the image
             var newDivForImage = document.createElement('div');
             newDivForImage.className = "img";
-            newDivForImage.style.backgroundImage = "url('"+url+"')";
+            newDivForImage.style.backgroundImage = "url('{{ asset('img/camera.jpg')}}')";
             parent.appendChild(newDivForImage);
+
+            //change background image when it's finish to load
+            var bgImg = new Image();
+            bgImg.onload = function(){
+               newDivForImage.style.backgroundImage = 'url(' + bgImg.src + ')';
+            };
+            bgImg.src = url;
         });
     }
 }
-
 
 getImage(nbrPage);
 
