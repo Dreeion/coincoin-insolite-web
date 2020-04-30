@@ -20,6 +20,7 @@ return [
     //shared img
     'together' => 'together',
     'together_text' => 'Thanks to you, new places are discovered every day',
+    'together_button' => 'More images',
 
     //comment
     'user1' => 'I recommend! CoinCoins Insolites allowed me to discover new awesome places around me.',

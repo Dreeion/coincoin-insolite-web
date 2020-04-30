@@ -20,6 +20,7 @@ return [
     //shared img
     'together' => 'Ensemble',
     'together_text' => 'C’est grâce a vous que chaque jour de nouveaux endroits endroits sont découvert.',
+    'together_button' => 'Plus d\'images',
 
 
     //comment
