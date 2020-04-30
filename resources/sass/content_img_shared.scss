@@ -28,11 +28,27 @@
             background-position: center;
             background-size: cover;
         }
-        .img:nth-child(6n+4){
+        .img:nth-child(10n+4){
             width: 42vw;
         }
+        .img:nth-child(10n+10){
+            width: 42vw;
+        }
+    }
 
-        
+    #more_img{
+        background-color: #000000; 
+        border: none;
+        font-weight: bold;
+        font-family: "Poppins", sans-serif;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        display: block;
+        margin: auto;
+        cursor: pointer;
     }
 
     @media screen and (max-width: 1024px) {
