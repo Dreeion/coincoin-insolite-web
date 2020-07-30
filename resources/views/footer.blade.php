@@ -1,3 +1,3 @@
 <footer>
-    <a href={{ __('messages.cgu_link') }}>{{ __('messages.cgu') }}</a>
+    <a href="{{ route(__('messages.cgu_link')) }}">{{ __('messages.cgu') }}</a>
 </footer>

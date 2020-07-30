@@ -23,3 +23,11 @@ Route::get('/{locale}', function($locale){
 Route::get('/', function(){
     return view('home');
 });
+
+Route::get('/legal/cgu', function(){
+    return view('cgu');
+})->name('cgu');;
+
+Route::get('/legal/cgu/fr', function(){
+    return view('cgu_fr');
+})->name('cgu_fr');;

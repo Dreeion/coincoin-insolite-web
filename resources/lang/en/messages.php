@@ -32,6 +32,6 @@ return [
 
     //footer
     'cgu' => 'Terms of Use',
-    'cgu_link' => 'legal/terms_of_use_en.php',
+    'cgu_link' => 'cgu',
 
 ];
