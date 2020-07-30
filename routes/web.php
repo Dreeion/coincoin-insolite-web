@@ -22,7 +22,7 @@ Route::get('/{locale}', function($locale){
 
 Route::get('/', function(){
     return view('home');
-});
+})->name('home');;
 
 Route::get('/legal/cgu', function(){
     return view('cgu');
