@@ -30,3 +30,35 @@ Il est également demandé de designer et de développer un site web permettant 
 
 - [Mobile development](https://github.com/Dreeion/coincoin-insolite-mobile)
 - [Web development](https://github.com/Dreeion/coincoin-insolite-web)
+
+---
+
+**Setup the project**
+
+Before starting, you must have [php 7.2](https://www.php.net/manual/en/install.php) installed.
+
+In order to run the project, you will need to run a few commands.
+
+First, clone the projet by using this command:
+```sh
+git clone https://github.com/Dreeion/coincoin-insolite-web.git
+```
+
+Then, setup it by typing these commands:
+```sh 
+npm install
+composer install
+```
+
+Once this is done, you will have to rename the `.env.example` file to `.env`.
+
+Then, type this command to generate a new key:
+```sh 
+php artisan key:generate
+```
+
+Finally, run these commands into two different terminals to run the app:
+```sh 
+npm run dev
+php artisan serve
+```
