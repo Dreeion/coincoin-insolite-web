@@ -58,9 +58,9 @@
                 width: 100%;
                 height: 15vh;
             }
-            .img:nth-child(6n+4){
+            .img:nth-child(10n+4), .img:nth-child(10n+10){
                 width: 100%;
-            }    
+            }
         }
     }
 }
