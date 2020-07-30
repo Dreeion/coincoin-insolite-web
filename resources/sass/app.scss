@@ -5,6 +5,8 @@
 @import 'general';
 
 //Style pages
+
+//Page Home
 @import 'nav';
 @import 'header';
 @import 'content_discover';
@@ -14,4 +16,8 @@
 @import 'content_phone';
 @import 'footer';
 
+//Page CGU
 @import 'cgu';
+
+//Page 404
+@import 'notFound';
