@@ -34,4 +34,10 @@ return [
     'cgu' => 'Terms of Use',
     'cgu_link' => 'cgu',
 
+    //404
+    'not_found_title' => 'Wonderful!',
+    'not_found_text1' => 'You\'ve discovered a new place! A true spirit of adventure!',
+    'not_found_text2' => 'Share this beautiful landscape on our application',
+    'not_found_return_home' => 'Back to home page : '
+
 ];

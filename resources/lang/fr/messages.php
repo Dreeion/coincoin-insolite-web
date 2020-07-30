@@ -35,4 +35,9 @@ return [
     'cgu' => 'Conditions d\'utilisation',
     'cgu_link' => 'cgu_fr',
 
+    'not_found_title' => 'Incroyable !',
+    'not_found_text1' => 'Vous venez de découvrir un nouvel endroit ! Une vraie âme d\'aventurier ;)',
+    'not_found_text2' => 'Partagez votre trouvaille sur notre application!',
+    'not_found_return_home' => 'Retournez à l\'accueil : '
+
 ];
