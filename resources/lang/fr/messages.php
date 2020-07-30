@@ -33,6 +33,6 @@ return [
 
     //footer
     'cgu' => 'Conditions d\'utilisation',
-    'cgu_link' => 'legal/terms_of_use_fr.php',
+    'cgu_link' => 'cgu_fr',
 
 ];
