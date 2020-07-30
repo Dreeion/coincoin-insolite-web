@@ -13,7 +13,7 @@
     <h1>{{ __('messages.not_found_title') }}</h1>
     <p>{{ __('messages.not_found_text1') }}</p>
     <p>{{ __('messages.not_found_text2') }}</p>
-
+    <br/>
     <p>{{ __('messages.not_found_return_home') }}<a href="{{route('home')}}">{{route('home')}}</a></p>
 </div>   
 </body>
