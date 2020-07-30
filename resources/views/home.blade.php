@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
-    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase.js"></script>
     <script src="{{ asset('js/app.js') }}"></script>
     
     <link rel="icon" type="image/png" href="{{ asset('img/logo_coincoins_tab.png')}}" />
