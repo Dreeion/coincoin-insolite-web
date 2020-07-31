@@ -1,6 +1,6 @@
 ## Tâches réalisées
 
-**[Alexandre](https://github.com/)**
+**[Alexandre GARAULT](https://github.com/Dreeion)**
 - Mise en place des outils d'organisation,
 - Développement de la base de l'application mobile,
 - Zoning et maquettage de l'application web & mobile,
@@ -13,7 +13,7 @@
 - Insertion de données dans la base,
 - Optimisations diverses, gestion des erreurs et corrections de bugs.
 
-**[Axelle](https://github.com/)**
+**[Axelle GUINAUDEAU](https://github.com/Theia01 )**
 - Zoning et maquettage de l'application web & mobile,
 - Développement de la base de l'application web,
 - L'application web est responsive,
@@ -25,7 +25,7 @@
 - Finalisation de l'application web,
 - Optimisations diverses et corrections de bugs.
 
-**[Camille](https://github.com/)**
+**[Camille NAULET](https://github.com/camillenaulet3)**
 - Développement de la base de l'application web,
 - Développement de la partie "Commentaires" de l'application web,
 - Développement de la partie "Galerie" de l'application mobile,
@@ -37,7 +37,7 @@
 - Développement de la recherche d'images,
 - Optimisations diverses et corrections de bugs.
 
-**[Johan](https://github.com/)**
+**[Johan DELEON](https://github.com/Amestyale)**
 - Développement de la base de l'application mobile,
 - Développement du menu de navigation mobile,
 - Mise en place de la carte en utilisant l'API Leaflet,
@@ -51,7 +51,7 @@
 - Affichage des détails d'un marqueur sur la carte,
 - Optimisations diverses et corrections de bugs.
 
-**[Maël](https://github.com/)**
+**[Maël DEBON](https://github.com/maeldebon)**
 - Gestion de projet,
 - Mise en place des outils d'organisation,
 - Rédaction des README,
