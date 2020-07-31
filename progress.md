@@ -45,7 +45,7 @@
 - Travail sur la base de données,
 - Ajout de la possibilité de compiler l'application en un .apk,
 - Mise en place d'une API Rest,
-- Ajouts des options de localisation,
+- Ajout des options de localisation,
 - Développement de l'insertion d'images,
 - Définition de l'arborescence de l'application mobile,
 - Affichage des détails d'un marqueur sur la carte,
@@ -65,7 +65,7 @@
 - Finalisation de la page d'accueil de l'application mobile,
 - Développement du système de traduction sur l'application mobile,
 - Ajout du bouton de déconnexion sur l'application mobile,
-- Optimisations diverses et corrections de bugs,
+- Optimisations diverses et corrections de bugs.
 
 ---
 
