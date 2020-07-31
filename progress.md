@@ -1,4 +1,4 @@
-### Tâches réalisées
+## Tâches réalisées
 
 **[Alexandre](https://github.com/)**
 - Mise en place des outils d'organisation,
@@ -69,7 +69,7 @@
 
 ---
 
-### Tâches restantes
+## Tâches restantes
 
 - Le mode hors-connexion n'est pas implémenté,
 - Il n'est pas possible de changer de photo de profil,
